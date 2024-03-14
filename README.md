@@ -231,3 +231,48 @@ This should be the content of the .eslintrc.json file
 }
 
 ```
+# Naming Convention
+
+### Folders and File names:
+For folder names, use kebab-case names
+- Use app-settings, not AppSettings, not appsettings, not app_settings
+For file names kebab-case names, then append the folder name 
+- Use article.model.ts, billable-item.model.ts
+- Use authentication.service.ts,
+- Use english.localization.json, portuguese.localization.json
+- Use countries.constants.json
+
+### Components
+Components include, atoms, molecules, organisms, routes and pages.
+
+For components file names use camel case.
+
+- Use SideBar.tsx, not sideBar.tsx or Sidebar.tsx
+- Use SvgIcon.tsx, not svgIcon.tsx or SVGIcon.tsx (note, do not use uppercase for abbreviations)
+
+### Constants
+Use an enum type to define constants,
+
+- The name of the enum must be in camel case, just like you would name a component
+- The items in the enum should be in uppercase-snakecase as shown in the example below
+ ```
+
+export enum AppRoutes {
+  HOME = "/",
+  LOGIN = "/Login"
+}
+
+```
+
+### Custom Hooks
+Prefix the context with the word "use", followed by the camel case name of the context that is being provided
+
+useRequest, useEffectAfterMount
+### Higher Other Components
+Higher order components are functions that receive components as a parameters and returns a component.
+
+Prefix the HOC name with the word "with", followed by the camel case name of the hoc that is being provided
+
+- withSplashScreen - a HOC that wraps its parameter component with a splash screen. Reuses the splash screen.
+- withAnimation - a HOC that applies animations to its parameter component
+- withContext - a HOC that provides the application context to the parameter component
