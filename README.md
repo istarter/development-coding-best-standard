@@ -276,3 +276,85 @@ Prefix the HOC name with the word "with", followed by the camel case name of the
 - withSplashScreen - a HOC that wraps its parameter component with a splash screen. Reuses the splash screen.
 - withAnimation - a HOC that applies animations to its parameter component
 - withContext - a HOC that provides the application context to the parameter component
+
+# Scrum Guide
+
+## Overview
+This document outlines our team's Scrum methodology, detailing our sprint processes, roles, ceremonies, and values essential for agile development.
+
+## Sprints
+Sprints are structured periods where specific tasks are completed and reviewed.
+
+### Sprint Plan
+- **Goal**: Define achievable deliverables and the necessary work.
+- **Duration**: First to the final day of the Sprint.
+- **Review**: Demonstrate completed work.
+
+### Sprint Review
+- **Objective**: Inspect the sprint's outcome and adjust the product backlog.
+  - When: Last day of Sprint.
+  - Duration: 1 hour max.
+
+### Sprint Retrospective
+- **Objective**: Reflect and improve the Scrum process.
+  - What went well, what can be improved.
+  - When: Last day of Sprint.
+  - Duration: 1 hour max.
+
+## Daily Meeting
+- **Objective**: Update and synchronize all team members on current progress.
+  - Questions: What did you do yesterday? Are there any impediments? What will you do today?
+  - When: Every day.
+  - Duration: 15 min max.
+
+### Important Notes:
+- Do not wait for late participants in the daily stand-up.
+- Respect team time and emphasize the importance of commitments.
+
+## Backlog Refinement
+- **Objective**: Clarify backlog items to ensure readiness.
+  - The goal is to have items in a "Ready" state, with a clear understanding of implementation and priority.
+
+## Running Sprint Stories
+- Maintain clear and transparent communication.
+- Keep the sprint goal transparent and avoid misinterpretation of story progress.
+
+## Communication
+- **Teams Channel**: Primary platform for Scrum-related communication.
+- **Meeting Invites**: Invitations for all Scrum ceremonies will be sent.
+
+## Scrum Values
+In July 2016, the Scrum Values were added to the Scrum Guide. These values include:
+- Courage
+- Focus
+- Commitment
+- Respect
+- Openness
+
+These values help teams about Scrum and deliver amazing software for their customers.
+
+# Team Roles
+
+## Overview
+This section outlines the various roles within our Scrum team and their respective responsibilities.
+
+### Product Manager
+The Product Manager holds the vision for the product, ensuring that it delivers value to the customer. Responsibilities include:
+- Deciding the team's next objectives for delivering more value.
+- Writing user stories and acceptance criteria in collaboration with the UX Team and/or Business Analysts.
+
+### Agile Coach
+The Agile Coach is tasked with creating an effective and productive work environment and instilling Scrum values, principles, and practices within the team. Responsibilities include:
+- Guiding the team in the optimal use of Scrum to build the product.
+- Acting as a Facilitator and Servant Leader, promoting self-organization.
+- Enabling cooperation across all roles and addressing any issues or non-compliance with Scrum practices.
+- Protecting the team from distractions, both external and internal.
+- Removing impediments to allow the team to focus on their tasks and adhere to Scrum practices.
+
+### Development Team
+The Development Team is a group of professionals responsible for delivering a potentially releasable increment of the product at the end of every Sprint. Characteristics and responsibilities include:
+- Building the product according to the sprint goals.
+- Functioning as a cross-functional, small, and self-organizing unit that handles development, testing, and release.
+- Collaborating to make decisions as a team without a designated lead, ensuring an equal contribution from all members.
+
+**Note:** A successful Scrum Developer is committed to continuous improvement, contributing to the team's success and product development.
